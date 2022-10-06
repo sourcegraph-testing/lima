@@ -5,7 +5,7 @@ import (
 	"text/template"
 )
 
-func Execute(tmpl string, args interface{}) ([]byte, error) {
+func Execute(tmpl string, args any) ([]byte, error) {
 	x, err := template.New("").Parse(tmpl)
 	if err != nil {
 		return nil, err
