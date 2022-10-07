@@ -26,7 +26,7 @@ func DNSAddresses() ([]string, error) {
 	return addresses, nil
 }
 
-func proxyURL(proxy string, port interface{}) string {
+func proxyURL(proxy string, port any) string {
 	if !strings.Contains(proxy, "://") {
 		proxy = "http://" + proxy
 	}
