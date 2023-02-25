@@ -484,3 +484,4 @@ LIMA_HOME="$HOME/.local/share/rancher-desktop/lima" "$(ls -d /tmp/.mount_ranche*
   - `/var/log/cloud-init-output.log` (inside the guest)
   - `/var/log/cloud-init.log` (inside the guest)
 - Make sure that you aren't mixing up tabs and spaces in the YAML.
+Hello World
